@@ -67,7 +67,10 @@
       }
        
       // var deadline = new Date(Date.parse(new Date()) + 21 * 24 * 60 * 60 * 1000 + 17 * 18); // for endless timer
-      var deadline = '2019-05-13';
+      // var deadline = '2019-05-13';
+
+      var deadline = new Date(2019, 4, 13, 10, 0, 0, 0);
+      // alert( deadline );
 
       initializeClock('clockdiv', deadline);
    </script>
