@@ -1,0 +1,47 @@
+body{
+  text-align: center;
+  background: #323541;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+ 
+h1{
+  color: #E5E5E5;
+  font-weight: 100;
+  font-size: 48px;
+  margin: 140px 0px 20px;
+}
+ 
+#clockdiv{
+  color: #E5E5E5;
+  display: inline-block;
+  font-weight: 300;
+  text-align: center;
+  font-size: 36px;
+}
+ 
+#clockdiv > div{
+  padding: 8px;
+  border-radius: 3px;
+  /*background: #00BF96;*/
+  /*border: 1px solid #434755;*/
+  display: inline-block;
+}
+ 
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  /*background: #00816A;*/
+  border: 1px solid #434755;
+  display: inline-block;
+}
+ 
+.smalltext{
+  padding-top: 8px;
+  font-size: 16px;
+  color: #696D7A;
+}
+
+.accent {
+  color: #EFB169;
+}
