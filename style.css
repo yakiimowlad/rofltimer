@@ -1,44 +1,85 @@
-body{
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+
   background: #323541;
+
+  text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-}
- 
-h1{
   color: #E5E5E5;
+}
+
+#wrapper {
+  max-width: 280px;
+  margin: 200px auto 0;
+}
+
+h1 {
+  margin: 10px auto 30px;
+
+  font-size: 30px;
   font-weight: 100;
-  font-size: 48px;
-  margin: 140px 0px 20px;
 }
- 
-#clockdiv{
-  color: #E5E5E5;
-  display: inline-block;
-  font-weight: 300;
+
+button {
+  margin: 40px auto 20px;
+  padding: 0;
+
+  width: 280px;
+  height: 60px;
+
+  background: linear-gradient(180deg, #5271DE 0%, #2D4EC0 100%);
+  border: 1px solid #2D4EC0;
+  box-shadow: 0px 3px 0px #1A3180, inset 0px -2px 0px #3859CE;
+  border-radius: 5px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px; /* identical to box height */
   text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+
+  outline: none;
+}
+
+button:hover {
+  box-shadow: 0px 3px 0px #1A3180, 0px 3px 30px rgba(82, 113, 222, 0.20), inset 0px -2px 0px #3859CE;
+}
+
+.timer {
+  
+}
+
+.clockdiv {
+  display: flex;
+  justify-content: space-between;
+
+  text-align: center;
+  font-weight: 300;
   font-size: 36px;
 }
  
-#clockdiv > div{
-  padding: 8px;
-  border-radius: 3px;
-  /*background: #00BF96;*/
-  /*border: 1px solid #434755;*/
-  display: inline-block;
+.clockdiv > div {
+
 }
- 
-#clockdiv div > span{
-  padding: 15px;
-  border-radius: 3px;
-  /*background: #00816A;*/
+
+.clockdiv div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 60px;
+  height: 60px;
+
   border: 1px solid #434755;
-  display: inline-block;
+  border-radius: 3px;
 }
  
-.smalltext{
+.smalltext {
   padding-top: 8px;
-  font-size: 16px;
+  font-size: 18px;
   color: #696D7A;
 }
 
