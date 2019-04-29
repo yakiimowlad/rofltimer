@@ -1,16 +1,9 @@
-@-ms-viewport {
-  width: device-width;
-}
-@-o-viewport {
-  width: device-width;
-}
-@viewport {
-  width: device-width;
-}
-
 body {
   margin: 0;
   padding: 0;
+
+  display: flex;
+  align-items: center;
 
   background: #323541;
 
@@ -21,12 +14,14 @@ body {
 }
 
 #wrapper {
-  max-width: 280px;
-  margin: 200px auto 0;
+  margin: 0 auto;
+/*  max-width: 280px;
+  width: 100%;*/
 }
 
 h1 {
-  margin: 10px auto 30px;
+  margin: 0;
+  padding: 0 0 20px;
 
   font-size: 30px;
   font-weight: 100;
@@ -59,7 +54,7 @@ button:hover {
 }
 
 .timer {
-  
+  max-width: 280px;
 }
 
 .clockdiv {
